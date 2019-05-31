@@ -1,6 +1,6 @@
 {
   "name": "@cthru/console-writer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small utility to make writing multiline output to the console a lot more visually appealing and easier to work with",
   "main": "src/writer-factory",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": "https://github.com/Nemesarial/console-writer.git"
 }

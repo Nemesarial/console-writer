@@ -6,7 +6,7 @@
   "scripts": {
     "test": "examples/formatting-output.js"
   },
-  "keywords": [],
+  "keywords": ["console","output","string","manipulation","wrap","format"],
   "author": "",
   "license": "MIT",
   "repository": "https://github.com/Nemesarial/console-writer.git"

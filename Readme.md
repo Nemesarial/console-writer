@@ -245,7 +245,7 @@ avoid making a module with 10 lines of code, I added some candy.
 
 ## A final example
 ```javascript
-const out = require('../src/writer-factory')({ wrap: 80 })
+const out = require('../src/writer-factory')({ wrap: 70 })
 
 out
 .title.full('This is a standard Title','#',0)
@@ -270,31 +270,31 @@ out
 ```
 Produces this output: 
 ```
-################################################################################
-                            This is a standard Title
-################################################################################
+######################################################################
+                       This is a standard Title
+######################################################################
 
-                                                           This is right-aligned
+                                                 This is right-aligned
 
-                                                       This is right-aligned and
-                                                        wrapped at 30 characters
+                                             This is right-aligned and
+                                              wrapped at 30 characters
 
-                                          This is right-aligned and wrapped
-                                          at 35 characters and right-padded
-                                                            by 5 characters
---------------------------------------------------------------------------------
+                                This is right-aligned and wrapped
+                                at 35 characters and right-padded
+                                                  by 5 characters
+----------------------------------------------------------------------
 
 
 First Level Heading
 ===================
-       This is center-aligned that will only wrap when hitting the edges
+  This is center-aligned that will only wrap when hitting the edges
 
 Second Level Heading
 --------------------
 
-                             This is center-aligned
-                              with content with a
-                           maximum width of 25 chars
+                        This is center-aligned
+                         with content with a
+                      maximum width of 25 chars
 
 >>>>> Third level Heading
 

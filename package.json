@@ -1,6 +1,6 @@
 {
   "name": "@cthru/console-writer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small utility to make writing multiline output to the console a lot more visually appealing and easier to work with",
   "main": "src/writer-factory",
   "scripts": {

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const out = require('../src/writer-factory')({ wrap: 80 })
+const out = require('../src/writer-factory')({ wrap: 70 })
 
 out
 .title.full('This is a standard Title','#',0)

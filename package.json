@@ -1,0 +1,12 @@
+{
+  "name": "@cthru/console-writer",
+  "version": "1.0.0",
+  "description": "A small utility to make writing multiline output to the console a lot more visually appealing and easier to work with",
+  "main": "src/writer-factory",
+  "scripts": {
+    "test": "examples/formatting-output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -3,6 +3,10 @@
 A simple utility to make it easier and more visually appealing to produce
 complex multiline console output in javascript. 
 
+[![Version](https://img.shields.io/npm/v/@cthru/console-writer.svg)](https://npmjs.org/package/@cthru/console-writer)
+[![Downloads/week](https://img.shields.io/npm/dw/@cthru/console-writer.svg)](https://npmjs.org/package/@cthru/console-writer)
+[![License](https://img.shields.io/npm/l/@cthru/console-writer.svg)](https://github.com/nemesarial/cmdr/blob/master/package.json)
+[![More Tools](https://img.shields.io/badge/npm%20org-%40cthru-e6b603.svg)](https://www.npmjs.com/search?ranking=quality&q=%40cthru%2F)
 ## Why
 
 Multiline string output in JavaScript has traditionally been a pain in the

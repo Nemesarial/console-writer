@@ -1,3 +1,5 @@
+const inspect = require('util').inspect
+
 const writerFactory = (cfg) => {
 	let cidx = 0
 	cfg = Object.assign({ wrap: 80, writer(str) { process.stdout.write(str) } }, cfg || {})
@@ -52,6 +54,8 @@ const writerFactory = (cfg) => {
 	o.h1 = (str = '') => o(str).pad(str.length, '=')()
 	o.h2 = (str = '') => o(str).pad(str.length, '-')()()
 	o.h3 = (str = '') => o.pad(5, '>').space()(str)()
+	o.preformatted = (str = '') => { cfg.writer(str); return o }
+	o.inspect = (obj, { showHidden = false, depth = 5, color = true }={}) => o.preformatted(inspect(obj, showHidden, depth, color))
 
 	return o
 }

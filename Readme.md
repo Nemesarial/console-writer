@@ -247,6 +247,27 @@ avoid making a module with 10 lines of code, I added some candy.
 |str	  	|			| the string to be printed  
 
 
+---
+### [writer].preformatted = (str = '') 
+*Print a preformatted string as-is*
+
+||||
+|-----------|-----------|-|
+|str	  	|			| the string to be printed  
+
+
+---
+### [writer].inspect = (obj, { showHidden: false, depth: 5, color: true }) 
+*Print the inspected object*
+
+||||
+|-----------|-----------|-|
+|obj	    	|			    | the object to inspect  
+|showHidden	|	false		| Show hidden items  
+|depth	  	|	5		    | Recrurse to this depth  
+|color	  	|	true		| Include color in the output  
+
+
 ## A final example
 ```javascript
 const out = require('../src/writer-factory')({ wrap: 70 })

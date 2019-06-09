@@ -54,7 +54,7 @@ const writerFactory = (cfg) => {
 	o.h1 = (str = '') => o(str).pad(str.length, '=')()
 	o.h2 = (str = '') => o(str).pad(str.length, '-')()()
 	o.h3 = (str = '') => o.pad(5, '>').space()(str)()
-	o.preformatted = (str = '') => { cfg.writer(str); return o }
+	o.preformatted = (str = '') => { cfg.writer(`${str}\n`); return o }
 	o.inspect = (obj, { showHidden = false, depth = 5, color = true }={}) => o.preformatted(inspect(obj, showHidden, depth, color))
 
 	return o
